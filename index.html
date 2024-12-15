@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#works">作品</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>你好，我是<span class="highlight">李华</span></h1>
+            <p>前端开发爱好者</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <img src="images/gryuwo.jpg" alt="关于我">
+            <div class="about-text">
+                <p>你好！我是李华，一名热爱网页开发的初学者。我正在学习前端开发技术，包括 HTML、CSS 和 JavaScript。我喜欢将创意转化为实际的网页作品，并且热衷于学习新的网页技术。</p>
+                <p>目前我正在通过实践项目来提升自己的编程技能，希望能够成为一名优秀的前端开发工程师。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="works">
+        <h2>我的作品</h2>
+        <div class="portfolio-grid">
+            <!-- 作品卡片将通过 JS 动态添加 -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>联系我</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" placeholder="你的名字" required>
+                <input type="email" placeholder="邮箱地址" required>
+                <textarea placeholder="留言内容" required></textarea>
+                <button type="submit">发送消息</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 李华. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
