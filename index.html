@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <div id="particles-js"></div>
+
     <nav class="navbar">
         <div class="logo">Portfolio</div>
         <ul class="nav-links">
@@ -15,6 +17,9 @@
             <li><a href="#about">关于</a></li>
             <li><a href="#works">作品</a></li>
             <li><a href="#contact">联系</a></li>
+            <li><button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button></li>
         </ul>
     </nav>
 
@@ -43,6 +48,11 @@
         </div>
     </section>
 
+    <section id="skills" class="skills">
+        <h2 class="gradient-text">专业技能</h2>
+        <!-- 技能条将通过 JS 动态添加 -->
+    </section>
+
     <section id="contact" class="contact">
         <h2>联系我</h2>
         <div class="contact-content">
@@ -56,9 +66,15 @@
     </section>
 
     <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-weixin"></i></a>
+            <a href="#"><i class="fab fa-weibo"></i></a>
+        </div>
         <p>&copy; 2024 李华. All rights reserved.</p>
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </body>
 </html> 
